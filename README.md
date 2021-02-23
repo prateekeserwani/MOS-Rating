@@ -20,6 +20,8 @@ For installation, please use the following command in the anaconda prompt for Wi
 
 ```conda env create -f mos.yml```
 
+```conda activate mos```
+
 ## Execution:
 To start the application place the images from the following [google drive link](https://drive.google.com/drive/folders/1PzC4oPg953FuzZvwnqquXFHQZDi9dnnI?usp=sharing) and unzip it. The directory structure should be 
 
