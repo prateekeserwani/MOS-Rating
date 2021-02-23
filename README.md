@@ -36,6 +36,10 @@ The execute the following command
 
 ``` python app_rating_restart_rezie.py```
 
+## GUI
+
+![Image of Yaktocat](gui.png)
+
 
 
 
