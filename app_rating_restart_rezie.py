@@ -17,7 +17,7 @@ current=0
 
 def read_filelist(path):
     # crawl file list 
-    filelist = glob.glob(path+'*.png')
+    filelist = glob.glob(os.path.join(path,'*.png'))
     return filelist
 
 def initialize_dataframe(files):
@@ -90,7 +90,7 @@ def previousbuttonClick():
         for i in range(5):
             pilimage = Image.open(os.path.join('.','images','method'+str(i+1),files[current].split(os.sep)[-1])).convert('RGB')
             pilimage = pilimage.resize((256,256), Image.ANTIALIAS)
-            image = ImageTk.PhotoImage(pilimage)
+            #image = ImageTk.PhotoImage(pilimage)
             print(os.path.join('.','images','method'+str(i+1),files[current].split(os.sep)[-1]))
             all_labels[i].configure(image=image)
             all_labels[i].photo = image
@@ -153,11 +153,11 @@ for i in range(2):
 
 f1 = tk.Frame(main_frame)
 current=current+1
-btn2 = ttk.Button(f1, text = '< Previous', command=previousbuttonClick) 
+#btn2 = ttk.Button(f1, text = '< Previous', command=previousbuttonClick) 
 btn1 = ttk.Button(f1, text = 'Next >',  command=nextbuttonClick) 
 
 f1.grid(row=3, column=2)
-btn2.pack(side="left")
+#btn2.pack(side="left")
 btn1.pack(side="right")
 
 
