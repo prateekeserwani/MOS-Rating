@@ -1,9 +1,9 @@
 # MOS-Rating
 The tool for rating the quality of the image under the following point of consideration:
 
-* Image do not contains anomaly (such as color artifacts)
-* Text removal is done properly with removed region is painted with background pixels
-* Non-text regions cannot be removed accidently 
+* Image do not contains anomaly (such as color artifacts, blurring, color distortion etc.) (rating decrease in case of anomaly)
+* Text removal is done properly with removed region is painted with background pixels (rating decrease if text retain on the image)
+* Non-text regions cannot be removed accidently (rating decrease if non text region removed)
 
 ## Scores: 
 The allowed values of scores are five discrete values. These values are 1, 2, 3, 4,and 5. The rating 5 is for excellent, whereas the 1 is for bad.
