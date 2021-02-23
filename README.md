@@ -38,7 +38,11 @@ The execute the following command
 
 ## GUI
 
+It consist of output of five different methods (the description of the method is not given for fair assessment). Each image have an assoicated rating combo box (bottom of each image). Please choose between 1 to 5.
+
 ![Image of Yaktocat](gui.png)
+
+
 
 
 
