@@ -15,7 +15,7 @@ The application is written in python and depend on following dependency:
 2. pandas
 3. PIL
 
-For installation please use the following command in the anaconda prompt in Windows and terminal in linux.
+For installation, please use the following command in the anaconda prompt for Windows and terminal for Linux.
 
 
 ```conda env create -f mos.yml```
