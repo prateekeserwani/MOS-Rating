@@ -6,7 +6,7 @@ The tool for rating the quality of the image under the following point of consid
 * Non-text regions cannot be removed accidently (rating decrease if non text region removed)
 
 ## Scores: 
-This tool consist of output of five different methods (the description of the method is not given for fair assessment). Each image have an assoicated rating combo box (bottom of each image). The allowed values of scores are five discrete values. These values are 1, 2, 3, 4,and 5. The rating 5 is for excellent, whereas the 1 is for bad.
+This tool consist of output of five different methods (the description of the method is not given for fair assessment). Each image have an assoicated rating drop down box (bottom of each image). The allowed values of scores are five discrete values. These values are 1, 2, 3, 4,and 5. The rating 5 is for excellent, whereas the 1 is for bad.
 
 ## Installation:
 
