@@ -44,7 +44,7 @@ It consist of output of five different methods (the description of the method is
 
 ![Image of Yaktocat](gui.png)
 
-
+### For fresh start please delete the rating.csv and counter.npy files. 
 
 
 
