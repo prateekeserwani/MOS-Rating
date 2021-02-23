@@ -11,7 +11,7 @@ import numpy as np
 
 all_labels = []
 all_combo = []
-path='./images/method1/'
+path=os.path.join('.','images','method1')
 counter=1
 current=0
 
@@ -67,10 +67,10 @@ def nextbuttonClick():
             messagebox.showerror("Forward move error", "No more images")
         else:
             for i in range(5):
-                pilimage = Image.open(os.path.join('./images/method'+str(i+1),files[current].split(os.sep)[-1])).convert('RGB')
+                pilimage = Image.open(os.path.join('.','images','method'+str(i+1),files[current].split(os.sep)[-1])).convert('RGB')
                 #pilimage = pilimage.resize((256,256), Image.ANTIALIAS)
                 image = ImageTk.PhotoImage(pilimage)
-                print(os.path.join('./images/method'+str(i+1),files[current].split(os.sep)[-1]))
+                print(os.path.join('.','images','method'+str(i+1),files[current].split(os.sep)[-1]))
                 all_labels[i].configure(image=image)
                 all_labels[i].photo = image
                 all_combo[i].current(0)
@@ -88,10 +88,10 @@ def previousbuttonClick():
     else:
         current = current-2
         for i in range(5):
-            pilimage = Image.open(os.path.join('./images/method'+str(i+1),files[current].split(os.sep)[-1])).convert('RGB')
+            pilimage = Image.open(os.path.join('.','images','method'+str(i+1),files[current].split(os.sep)[-1])).convert('RGB')
             pilimage = pilimage.resize((256,256), Image.ANTIALIAS)
             image = ImageTk.PhotoImage(pilimage)
-            print(os.path.join('./images/method'+str(i+1),files[current].split(os.sep)[-1]))
+            print(os.path.join('.','images','method'+str(i+1),files[current].split(os.sep)[-1]))
             all_labels[i].configure(image=image)
             all_labels[i].photo = image
         current = current +1
@@ -133,7 +133,7 @@ for i in range(2):
             borderwidth=1
         )
         frame.grid(row=i, column=j)
-        image = ImageTk.PhotoImage(Image.open(os.path.join('./images/method'+str(counter),files[current].split(os.sep)[-1])))
+        image = ImageTk.PhotoImage(Image.open(os.path.join('.','images','method'+str(counter),files[current].split(os.sep)[-1])))
 
         label = tk.Label(master=main_frame,image=image)
         label.photo = image 
