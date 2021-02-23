@@ -42,7 +42,12 @@ The execute the following command
 
 ![Image of Yaktocat](gui.png)
 
-### For fresh restart please delete the rating.csv and counter.npy files. 
+For fresh restart please delete the rating.csv and counter.npy files. 
+
+## Sample Images 
+
+![Image of Yaktocat](example1.png)
+
 
 
 
