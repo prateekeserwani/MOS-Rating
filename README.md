@@ -30,7 +30,7 @@ To start the application place the images from the following [google drive link]
     │   ├── Method3                  # Method 3 outputs
     │   ├── Method4                  # Method 4 outputs
     │   ├── Method5                  # Method 5 outputs
-    ├── app_rating_restart_rezie     # code for rating 
+    ├── app_rating_restart_rezie.py  # code for rating 
     
 The execute the following command
 
