@@ -44,7 +44,7 @@ The execute the following command
 
 For fresh restart please delete the rating.csv and counter.npy files. 
 
-## Sample Images 
+## Sample Rating 
 
 ![Image of Yaktocat](example1.png)
 
