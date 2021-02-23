@@ -6,7 +6,7 @@ The tool for rating the quality of the image under the following point of consid
 * Non-text regions cannot be removed accidently (rating decrease if non text region removed)
 
 ## Scores: 
-The allowed values of scores are five discrete values. These values are 1, 2, 3, 4,and 5. The rating 5 is for excellent, whereas the 1 is for bad.
+It consist of output of five different methods (the description of the method is not given for fair assessment). Each image have an assoicated rating combo box (bottom of each image). The allowed values of scores are five discrete values. These values are 1, 2, 3, 4,and 5. The rating 5 is for excellent, whereas the 1 is for bad.
 
 ## Installation:
 
@@ -39,8 +39,6 @@ The execute the following command
 ``` python app_rating_restart_rezie.py```
 
 ## GUI
-
-It consist of output of five different methods (the description of the method is not given for fair assessment). Each image have an assoicated rating combo box (bottom of each image). Please choose between 1 to 5.
 
 ![Image of Yaktocat](gui.png)
 
