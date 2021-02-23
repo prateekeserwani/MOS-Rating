@@ -1,7 +1,7 @@
 # MOS-Rating
 The tool for rating the quality of the image under the following point of consideration:
 
-* Image do not contains anomaly (such as color artifacts, blurring, color distortion etc.) (rating decrease in case of anomaly)
+* Image do not contains anomaly such as color artifacts, blurring, color distortion etc.(rating decrease in case of anomaly)
 * Text removal is done properly with removed region is painted with background pixels (rating decrease if text retain on the image)
 * Non-text regions cannot be removed accidently (rating decrease if non text region removed)
 
