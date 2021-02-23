@@ -6,7 +6,7 @@ The tool for rating the quality of the image under the following point of consid
 * Non-text regions cannot be removed accidently 
 
 ## Scores: 
-The allowed values of scores are five discrete values. These values are 1, 2, 3, 4,and 5. The best is 5, whereas the worst is 1.
+The allowed values of scores are five discrete values. These values are 1, 2, 3, 4,and 5. The rating 5 is for excellent, whereas the 1 is for bad.
 
 ## Installation:
 
